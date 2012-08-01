@@ -55,8 +55,17 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="ButtonContentWindow.xaml.cs">
+      <DependentUpon>ButtonContentWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ControlTemplateButtonWindow.xaml.cs">
+      <DependentUpon>ControlTemplateButtonWindow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="DataBindingWindow.xaml.cs">
       <DependentUpon>DataBindingWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DataTemplateWindow.xaml.cs">
+      <DependentUpon>DataTemplateWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="DockPanelLayout.xaml.cs">
       <DependentUpon>DockPanelLayout.xaml</DependentUpon>
@@ -68,10 +77,26 @@
       <DependentUpon>FlowDocumentReaderWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="Models\Person.cs" />
+    <Compile Include="Models\Task.cs" />
+    <Compile Include="TextBoxContentWindow.xaml.cs">
+      <DependentUpon>TextBoxContentWindow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="WindowWithButton.xaml.cs">
       <DependentUpon>WindowWithButton.xaml</DependentUpon>
     </Compile>
+    <Page Include="ButtonContentWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ControlTemplateButtonWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="DataBindingWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="DataTemplateWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -104,6 +129,10 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="TextBoxContentWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="WindowWithButton.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
