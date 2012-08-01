@@ -1,0 +1,6 @@
+﻿<Window x:Class="IntroductionToWPF.WindowWithButton"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="WindowWithButton" Height="300" Width="300" WindowStartupLocation="CenterScreen">
+    <Button Name="button" Click="button_Click">Click Me!</Button>
+</Window>

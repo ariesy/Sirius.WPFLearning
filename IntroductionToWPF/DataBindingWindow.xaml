@@ -1,0 +1,8 @@
+﻿<Window x:Class="IntroductionToWPF.DataBindingWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="DataBindingWindow" Height="300" Width="300">
+    <Grid>
+        <TextBox Name="personNameTextBox" Text="{Binding Path=Name}"></TextBox>
+    </Grid>
+</Window>

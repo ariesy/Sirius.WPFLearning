@@ -1,0 +1,8 @@
+﻿<Window x:Class="IntroductionToWPF.EllipseEventHandlingWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="EllipseEventHandlingWindow" Height="300" Width="300">
+    <Grid>
+        <Ellipse Name="clickableEllipse" Fill="Blue" MouseUp="clickableEllipse_MouseUp"></Ellipse>
+    </Grid>
+</Window>
