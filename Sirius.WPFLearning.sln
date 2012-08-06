@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FolderExplorer", "FolderExp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicLayout", "DynamicLayout\DynamicLayout.csproj", "{751AE836-5C3B-43FF-8034-4CDEE92D1E5D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResizableApplication", "ResizableApplication\ResizableApplication.csproj", "{E30551DA-03AA-449E-B69D-F749BD880306}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -31,6 +33,10 @@ Global
 		{751AE836-5C3B-43FF-8034-4CDEE92D1E5D}.Debug|x86.Build.0 = Debug|x86
 		{751AE836-5C3B-43FF-8034-4CDEE92D1E5D}.Release|x86.ActiveCfg = Release|x86
 		{751AE836-5C3B-43FF-8034-4CDEE92D1E5D}.Release|x86.Build.0 = Release|x86
+		{E30551DA-03AA-449E-B69D-F749BD880306}.Debug|x86.ActiveCfg = Debug|x86
+		{E30551DA-03AA-449E-B69D-F749BD880306}.Debug|x86.Build.0 = Debug|x86
+		{E30551DA-03AA-449E-B69D-F749BD880306}.Release|x86.ActiveCfg = Release|x86
+		{E30551DA-03AA-449E-B69D-F749BD880306}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
