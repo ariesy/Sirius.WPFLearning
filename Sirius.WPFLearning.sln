@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicLayout", "DynamicLay
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResizableApplication", "ResizableApplication\ResizableApplication.csproj", "{E30551DA-03AA-449E-B69D-F749BD880306}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataBindingDemo", "DataBindingDemo\DataBindingDemo.csproj", "{BE42E92D-2FAE-4E1E-9F7B-AD47B0011A1F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -37,6 +39,10 @@ Global
 		{E30551DA-03AA-449E-B69D-F749BD880306}.Debug|x86.Build.0 = Debug|x86
 		{E30551DA-03AA-449E-B69D-F749BD880306}.Release|x86.ActiveCfg = Release|x86
 		{E30551DA-03AA-449E-B69D-F749BD880306}.Release|x86.Build.0 = Release|x86
+		{BE42E92D-2FAE-4E1E-9F7B-AD47B0011A1F}.Debug|x86.ActiveCfg = Debug|x86
+		{BE42E92D-2FAE-4E1E-9F7B-AD47B0011A1F}.Debug|x86.Build.0 = Debug|x86
+		{BE42E92D-2FAE-4E1E-9F7B-AD47B0011A1F}.Release|x86.ActiveCfg = Release|x86
+		{BE42E92D-2FAE-4E1E-9F7B-AD47B0011A1F}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
